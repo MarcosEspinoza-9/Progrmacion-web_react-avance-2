@@ -3,6 +3,7 @@ import './style.css';
 import {PrimerComponente} from './PrimerComponente.js';
 import {SegundoComponente} from './SegundoComponente.js';
 import {TercerComponente} from './TercerComponente.js';
+import {CuartoComponente} from './CuartoComponente.js';
 
 export default function App() {
 // se creo una variable donde contiene datos 
@@ -21,7 +22,7 @@ export default function App() {
       <PrimerComponente></PrimerComponente>
       <SegundoComponente></SegundoComponente>
       <TercerComponente nombre= "Marcos" apellido= "Espinoza" ficha={Fichamedica} ></TercerComponente>
-
+    <CuartoComponente></CuartoComponente>
       
     </div>
   );
