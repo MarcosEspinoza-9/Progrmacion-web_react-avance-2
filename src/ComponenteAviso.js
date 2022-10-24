@@ -14,5 +14,5 @@ return(
   <h1>Este es el componente aviso</h1>
   <button onClick={e=>{alert("Saludos desde aqui")}}> Mostrar Saludo </button>
 </div>
-
+)
 }
