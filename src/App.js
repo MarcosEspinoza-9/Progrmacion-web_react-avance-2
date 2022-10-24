@@ -5,6 +5,7 @@ import {SegundoComponente} from './SegundoComponente.js';
 import {TercerComponente} from './TercerComponente.js';
 import {CuartoComponente} from './CuartoComponente.js';
 import {MiEfecto} from './MiEfecto.js';
+import {Ejercicio} from './Ejercicio.js'
 
 export default function App() {
 // se creo una variable donde contiene datos 
@@ -25,7 +26,9 @@ export default function App() {
       <TercerComponente nombre= "Marcos" apellido= "Espinoza" ficha={Fichamedica} ></TercerComponente>
     <CuartoComponente></CuartoComponente>
     <MiEfecto></MiEfecto>
-      
+     <Ejercicio></Ejercicio>
+
+
     </div>
   );
 }

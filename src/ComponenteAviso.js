@@ -2,13 +2,13 @@ import React ,{useEffect} from 'react'
 
 export const ComponenteAviso = ()=>{
 
-useEffect(()=>{
-alert("el componente aviso se a cargado")
-return (()=>{
-alert("El componente aviso a sido demostrado")
+//useEffect(()=>{
+//alert("el componente aviso se a cargado")
+//return (()=>{
+//alert("El componente aviso a sido demostrado")
 
-})
-},[])
+//})
+//},[])
 return(
 <div>
   <h1>Este es el componente aviso</h1>
